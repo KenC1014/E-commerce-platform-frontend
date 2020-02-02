@@ -73,7 +73,7 @@ const Signup = () => {
     }
 
     return (
-        <Layout title="Sign Up" description="Join SockManic today" className="container col-md-4 offset-md-4">
+        <Layout title="Sign Up" description="Join SocksManias today" className="container col-md-4 offset-md-4">
            {error && <div className="alert alert-danger">{error}</div>}
            {success && <div className="alert alert-success">New account created! Please <Link to="/login">Login</Link>.</div>}
            {signUpForm()}
