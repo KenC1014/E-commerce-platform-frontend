@@ -43,6 +43,10 @@ div .nav-item.nav-link:focus
   background:#272e38;
 }
 
+#tron{
+  border-radius: 0px;
+}
+
 .jumbotron {
   text-align: center;
   color: white;

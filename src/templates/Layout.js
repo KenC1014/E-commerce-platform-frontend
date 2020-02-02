@@ -5,7 +5,7 @@ const Layout = ({title, description, className, children}) => {
     return(
         <div>
             <Menu />
-            <div className='jumbotron'>
+            <div className='jumbotron' id="tron">
                 <h2>{title}</h2>
                 <p className='lead'>{description}</p>
             </div>
