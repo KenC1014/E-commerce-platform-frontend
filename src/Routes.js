@@ -16,6 +16,7 @@ import Product from './templates/Product'
 import Cart from './templates/Cart'
 import Profile from './user/Profile'
 import ProductsManager from './admin/ProductsManager'
+import About from './templates/About'
 
 const Routes = () => {
     return(
@@ -25,6 +26,7 @@ const Routes = () => {
                 <Route path="/shop" component={Shop} exact={true}/>
                 <Route path="/login" component={Login} exact={true}/>
                 <Route path="/signup" component={Signup} exact={true}/>
+                <Route path="/about" component={About} exact={true}/>
                 <PrivateRoute path="/user/dashboard" component={Dashboard} exact={true}/>
                 <PrivateRoute path="/profile/:userId" component={Profile} exact={true}/>
                 <AdminRoute path="/admin/dashboard" component={AdminDashboard} exact={true}/>

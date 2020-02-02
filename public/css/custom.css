@@ -3,17 +3,21 @@ div  .nav.nav-tabs{
       color:#fff;
       background:#272e38;
       border-radius:0;
-      height: 60px;
+      height: 81px;
+      margin-left: 250px;
   }
 
 div .nav-item.nav-link,
 div .nav-item.nav-link.active
 {
     border: none;
-      padding: 18px 25px;
+      padding: 18px 40px;
+      padding-top: 28px;
       color:#fff;
       background:#272e38;
       border-radius:0;
+      height: 81px;
+      text-align: center;
 }
 
 div .nav-item.nav-link:hover,
@@ -26,9 +30,26 @@ div .nav-item.nav-link:focus
      transition:background 0.20s linear;
  }
 
+ #shop-cart{
+  margin-left: 260px;
+  width: 100px;
+}
+
+#shop-cart-text{
+  font-weight: 700;
+}
+
+#pro-img {
+  background:#272e38;
+}
+
 .jumbotron {
   text-align: center;
-  background: url(../img/wood-1.jpg);
+  color: white;
+  height: 400px;
+  background: url(../img/weld-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container { 
@@ -313,15 +334,6 @@ body {
   height: 599;
 }
 
-#shop-cart{
-  margin-left: 1000px;
-  width: 100px;
-}
-
-#shop-cart-text{
-  font-weight: 700;
-}
-
 
 .nav-tabs .badge{
   font-style: italic;
@@ -577,4 +589,8 @@ table {
 #product-card-badge{
   width: 70px;
   padding: 10px;
+}
+
+#about{
+  text-align: center;
 }

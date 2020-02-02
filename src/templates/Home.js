@@ -35,7 +35,7 @@ const Home = () => {
     },[])
 
     return (
-        <Layout title="Home Page" description="Welcome to SocksManias" className="container-fluid">
+        <Layout title="Welcome to Quantec" description="Explore the full power of ProWeld and ProGaurd" className="container-fluid">
             <Search />
             <h2 className="mb-4">New Arrivals</h2>
             <div className="row">
