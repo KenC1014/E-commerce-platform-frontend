@@ -2,6 +2,7 @@ import React, {Fragment} from 'react'
 import {Link, withRouter} from 'react-router-dom'
 import {logOut, isAuthed} from '../API/auth'
 import {itemTotal} from './cartUtils'
+import logo from '../img/ProWeld_ProGuard_logo.png'
 
 const isActive = (history, path) => {
     if(history.location.pathname === path) {
@@ -15,7 +16,7 @@ const menu = ({history}) => {
     return(
         <div className="row"  id="pro-img">
              <div className="col-2"> 
-               <img className="adjust_img mt-4 mb-4 ml-4" src="http://proweld-slovakia.sk/wp-content/uploads/2019/03/ProWeld_ProGuard_logo.png" alt="ProWeld_ProGuard_logo"/>
+               <img className="adjust_img mt-4 mb-4 ml-4" src={logo} alt="ProWeld_ProGuard_logo"/>
              </div>
              <div className="col-10" >
              <ul className="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
