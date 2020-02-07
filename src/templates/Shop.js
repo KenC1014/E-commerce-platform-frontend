@@ -96,7 +96,7 @@ const Shop = () => {
                     </div>
                 </div>
                 <div className="col-9">
-                    <h2 className="mb-4" style={{color: "#E8EDF0"}}>Products</h2>
+                    <h2 className="mb-4">Products</h2>
                     <div className="row mr-1">
                         {filteredProducts.map((filteredProduct, index) => (
                             <div key={index} className="col-4 mb-3">

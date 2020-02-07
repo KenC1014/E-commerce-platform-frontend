@@ -84,7 +84,7 @@ div .nav-item.nav-link:focus
 }
 
 body {
-    background: url(../img/cloud.jpg);
+    background: whitesmoke;
     height: 100%;
     width: 100%;
     margin: 0;
