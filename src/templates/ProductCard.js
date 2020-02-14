@@ -37,7 +37,7 @@ const ProductCard = ({product, productImage}) => {
         <div className="container" style={{background: 'none', padding: '0px'}} id="external">
           {redirectAction(redirect)}
           <div className="left-column">
-            <div className="mt-4"><ShowImage item={product} url="product" productImage={productImage}/></div>
+            <div className="mt-4"><ShowImage item={product} url="product" productImage={productImage} id="product-card-img"/></div>
           </div>
        
        
